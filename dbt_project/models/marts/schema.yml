@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fct_daily_air_quality
+    description: "Tabel agregasi kualitas udara harian"
+    columns:
+      - name: observation_date
+        tests:
+          - not_null
+      - name: city_name
+        tests:
+          - not_null

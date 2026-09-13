@@ -1,0 +1,15 @@
+.venv/
+env/
+venv/
+
+__pycache__/
+*.pyc
+
+data_lake/
+warehouse/*.duckdb
+
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+.prefect/
